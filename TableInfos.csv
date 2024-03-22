@@ -1,0 +1,65 @@
+ID,Title,ShortTitle,Identifier,Summary,Modified,ReasonDelivery,ExplanatoryText,Language,Catalog,Frequency,Period,ShortDescription,Description,DefaultPresentation,DefaultSelection,GraphTypes,OutputStatus,Source,MetaDataModified,SearchPriority
+0,Purchasing power development; household characteristics,Purchasing power; household features,83781ENG,"Purchasing power development
+Main source of income, composition of the household",2023-09-14T02:00:00,Update,,en,CBS,Yearly,2012-2022,"
+This table contains figures on the development of dynamic purchasing power of persons. The purchasing power development is only shown for persons with equal characteristics in the reporting year and the year before. The figures in this table are broken down into different household characteristics, like main source of income and age of the main earner. The population consists of all persons in private households with income on January 1st of the reporting year.
+
+Data available from: 2012.
+
+Status of the figures:
+The figures in this table for the period 2012 to 2021 are final. The figures for the period 2022 are preliminary.
+
+Changes as of 14 September 2023: 
+Figures for 2021 have been finalized. Figures for 2022 have been added.
+
+When will new figures be published?
+New figures will be published in September 2024.
+","CONTENTS
+
+1. General information
+2. Definitions and explanation of symbols
+3. Links to relevant tables and articles
+4. Sources and methods
+5. Further information
+
+1. GENERAL INFORMATION
+
+This table contains figures on the development of dynamic purchasing power of persons. The purchasing power development is only shown for persons with equal characteristics in the reporting year and the year before. The figures in this table are broken down into different household characteristics, like main source of income and age of the main earner. The population consists of all persons in private households with income on January 1st of the reporting year.
+
+Data available from: 2012.
+
+Status of the figures:
+The figures in this table for the period 2012 to 2021 are final. The figures for the period 2022 are preliminary.
+
+Changes as of 14 September 2023: 
+Figures for 2021 have been finalized. Figures for 2022 have been added.
+
+When will new figures be published?
+New figures will be published in September 2024.
+
+2. DEFINITIONS AND EXPLANATION OF SYMBOLS
+
+Definitions:
+Purchasing power
+Purchasing power is defined as the equivalised household income adjusted for price developments, which are based on the consumer price index (CPI). Purchasing power is used to determine income changes (in real terms), but may also be used to determine (developments in) differences in prosperity between individuals or households.
+
+Explanation of symbols:
+
+Empty cell	: figure not applicable
+. 		: figure is unknown, insufficiently reliable or confidential
+*		: provisional figure 
+**		: revised provisional figure
+
+3. LINKS TO RELEVANT TABLES AND ARTICLES
+
+More information can be found in the theme <a href='https://www.cbs.nl/en-gb/labour-and-income/income-and-spending'>Income and spending</a>
+
+4. SOURCES AND METHODS
+
+The survey method for this table can be found in the survey description <a href='https://www.cbs.nl/en-gb/our-services/methods/surveys/korte-onderzoeksbeschrijvingen/integral-income-and-wealth-statistics'>Integral income and wealth statistics</a>
+
+5. FURTHER INFORMATION
+
+<a href='https://www.cbs.nl/en-gb/about-us/contact/infoservice'>Infoservice</a>
+
+Copyright (c) Statistics Netherlands, The Hague/Heerlen
+Reproduction is permitted, provided Statistics Netherlands is quoted as the source. ","ts=1694079827824&graphtype=Table&r=HouseholdCharacteristics,Periods&k=Topics",$filter=((HouseholdCharacteristics eq '1013400') or (HouseholdCharacteristics eq '1013601') or (HouseholdCharacteristics eq '1013602') or (HouseholdCharacteristics eq '1013850') or (HouseholdCharacteristics eq '1013950') or (HouseholdCharacteristics eq '1016090') or (HouseholdCharacteristics eq '1017780') or (HouseholdCharacteristics eq '1050015') or (HouseholdCharacteristics eq '1050190') or (HouseholdCharacteristics eq 'T009002')) and ((Periods eq '2020JJ00') or (Periods eq '2021JJ00') or (Periods eq '2022JJ00')),"Table,Bar,Line",Regular,CBS.,2023-09-14T02:00:00,2

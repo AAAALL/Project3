@@ -1,0 +1,8 @@
+ID,DimensionKey,Title,Description,ParentID
+0,HouseholdCharacteristics,Characteristics,,
+1,HouseholdCharacteristics,Total,,0.0
+2,HouseholdCharacteristics,Composition of the household,,0.0
+3,HouseholdCharacteristics,Main earner: age,,0.0
+4,HouseholdCharacteristics,Main income source,,0.0
+5,HouseholdCharacteristics,Owner-occupied or rented home,,0.0
+6,HouseholdCharacteristics,Standardised income 10% group,,0.0

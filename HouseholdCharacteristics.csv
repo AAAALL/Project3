@@ -1,0 +1,71 @@
+Key,Title,Description,CategoryGroupID
+T009002,Total persons,,1
+1050015,Type: Single person household,Private household consisting of one person.,2
+1016010,Type: Multi-person household,Private household consisting of two or more people.,2
+1050190,Type: One-parent family,Private household consisting of one parent and one or more children living at home.,2
+1050055,"Type: Couple, total",Private household consisting of a couple and one or more children living at home.,2
+1017780,"Type: Couple, no children","Private household consisting of a couple, without children living at home.",2
+1016090,"Type: Couple, with child(ren)","Private household consisting of two persons, both younger than 65 years, who are married, in a registered partnership or cohabiting, with or without resident children.",2
+1050220,"Type: Multi-person household, n.e.c.",Private household consisting of other people in addition to the reference person and possibly his/her partner and/or children living at home. It concerns for instance households with relatives living as a member of the household.,2
+A025340,Main earner: to 24 years,The main earner is the person with the most important socio-economic position in the household.,3
+A025343,Main earner: 25 to 44 years,The main earner is the person with the most important socio-economic position in the Household.,3
+A025351,Main earner: 45 to 64 years,The main earner is the person with the most important socio-economic position in the Household.,3
+A025359,Main earner: 65 years or older,The main earner is the person with the most important socio-economic position in the household.,3
+A025342,Main earner: 25 to 34 years,The main earner is the person with the most important socio-economic position in the household.,3
+A025347,Main earner: 35 to 44 years,The main earner is the person with the most important socio-economic position in the household.,3
+A025350,Main earner: 45 to 54 years,The main earner is the person with the most important socio-economic position in the household.,3
+A025354,Main earner: 55 to 64 years,The main earner is the person with the most important socio-economic position in the household.,3
+A025358,Main earner: 65 to 74 years,The main earner is the person with the most important socio-economic position in the household.,3
+A042086,Main earner: 75 to 84 years,The main earner is the person with the most important socio-economic position in the household.,3
+A042087,Main earner: 85 years or older,The main earner is the person with the most important socio-economic position in the household.,3
+1013395,Source:  Income as employee/self-employe,Households of which wage of an employee or income of self-employed persons makes up the main source of income.,4
+1013400,Source: Income as employee,Households of which wage of an employee makes up the main source of income.,4
+1013601,Source: Income as self-employed (total),"Households of which income of an entrepeneur, major shareholder or other self-employed persons make up the main source of income.",4
+1013602,Source: Income as self-employed ...,"Income as self-employed in own enterprise
+Households of which gain from own enterprise of an entrepeneur makes up the main source of income.",4
+1013603,Source: Income as major shareholder,"Income as director-major shareholder
+Households of which the remuneration of the major shareholder makes up the main source of income.",4
+1013604,Source: Income as other self-employed,Households of which other income from labour (without working relationship) makes up the main source of income.,4
+1013650,Source: Transfer income,"Households of which a benefit, a pension or student grant makes up the main source of income.",4
+1013700,Source: Income insurance benefit,"Households of which an income insurance benefit due to unemployment, sickness, disability or pension makes up the main source of income.",4
+1013750,Source: Unemployment benefit,Households of which an income insurance benefit due to unemployment makes up the main source of income.,4
+1013800,Source: Sickness/Disability benefit,Households of which an income insurance benefit due to sickness or disability makes up the main source of income.,4
+1013850,Source: Old-age/survivors pension,Households of which an income insurance benefit concerning old-age or survivors pensions or income from wealth makes up the main source of income.,4
+1013900,Source: Social provisions benefit,Households of which an social provisions benefit (social assistance and other social provisions) makes up the main source of income.,4
+1013950,Source: Social assistance benefit,Households of which an social provisions benefit (social assistance) makes up the main source of income.,4
+1014040,"Source: Social provisions, n.e.c.","Households of which an social provisions benefit other than a social assistance benefit makes up the main source of income. It concerns among other benefits to unemployed elderly persons, self-employed persons and young disabled persons.",4
+1014050,Source: Student grant,Households of which a student grant makes up the main source of income.,4
+1014800,Home ownership: Owner-occupied home,A household lives in its own home or lives in a rented house. In addition households living in a rented house have been subdivided into households receiving rent subsidy or not.,5
+1014850,Home ownership: Rent,A household lives in its own home or lives in a rented house. In addition households living in a rented house have been subdivided into households receiving rent subsidy or not.,5
+1014950,Home ownership: Rent: no rent subsidy,A household lives in its own home or lives in a rented house. In addition households living in a rented house have been subdivided into households receiving rent subsidy or not.,5
+1014900,Home ownership: Rent with rent subsidy,A household lives in its own home or lives in a rented house. In addition households living in a rented house have been subdivided into households receiving rent subsidy or not.,5
+1020870,Equivalised income: 1st 10%-group,"Equivalised income equals disposable income corrected for differences in household size and composition.
+
+Households have been subdivided by level of equivalised income in ten groups (deciles) with an equal number of households.  The income boundaries between these ten 10%-groups differ from year to year.",6
+1020880,Equivalised income: 2nd 10%-group,"Equivalised income equals disposable income corrected for differences in household size and composition.
+
+Households have been subdivided by level of equivalised income in ten groups (deciles) with an equal number of households.  The income boundaries between these ten 10%-groups differ from year to year.",6
+1020890,Equivalised income: 3rd 10%-group,"Equivalised income equals disposable income corrected for differences in household size and composition.
+
+Households have been subdivided by level of equivalised income in ten groups (deciles) with an equal number of households.  The income boundaries between these ten 10%-groups differ from year to year.",6
+1020900,Equivalised income: 4th 10%-group,"Equivalised income equals disposable income corrected for differences in household size and composition.
+
+Households have been subdivided by level of equivalised income in ten groups (deciles) with an equal number of households.  The income boundaries between these ten 10%-groups differ from year to year.",6
+1020910,Equivalised income: 5th 10%-group,"Equivalised income equals disposable income corrected for differences in household size and composition.
+
+Households have been subdivided by level of equivalised income in ten groups (deciles) with an equal number of households.  The income boundaries between these ten 10%-groups differ from year to year.",6
+1020920,Equivalised income: 6th 10%-group,"Equivalised income equals disposable income corrected for differences in household size and composition.
+
+Households have been subdivided by level of equivalised income in ten groups (deciles) with an equal number of households.  The income boundaries between these ten 10%-groups differ from year to year.",6
+1020930,Equivalised income: 7th 10%-group,"Equivalised income equals disposable income corrected for differences in household size and composition.
+
+Households have been subdivided by level of equivalised income in ten groups (deciles) with an equal number of households.  The income boundaries between these ten 10%-groups differ from year to year. For more information about these boundaries: see the link in the general explanation to this table.",6
+1020940,Equivalised income: 8th 10%-group,"Equivalised income equals disposable income corrected for differences in household size and composition.
+
+Households have been subdivided by level of equivalised income in ten groups (deciles) with an equal number of households.  The income boundaries between these ten 10%-groups differ from year to year.",6
+1020950,Equivalised income: 9th 10%-group,"Equivalised income equals disposable income corrected for differences in household size and composition.
+
+Households have been subdivided by level of equivalised income in ten groups (deciles) with an equal number of households.  The income boundaries between these ten 10%-groups differ from year to year.",6
+1020960,Equivalised income: 10th 10%-group,"Equivalised income equals disposable income corrected for differences in household size and composition.
+
+Households have been subdivided by level of equivalised income in ten groups (deciles) with an equal number of households.  The income boundaries between these ten 10%-groups differ from year to year.",6

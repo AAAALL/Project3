@@ -1,0 +1,15 @@
+odata.type,ID,Position,ParentID,Type,Key,Title,Description,ReleasePolicy,Datatype,Unit,Decimals,Default
+Cbs.OData.Dimension,0,0.0,,Dimension,HouseholdCharacteristics,Household characteristics,,,,,,
+Cbs.OData.TimeDimension,1,1.0,,TimeDimension,Periods,Periods,,True,,,,
+Cbs.OData.Topic,2,2.0,,Topic,MedianDevelopmentPurchasingPower_1,Median development purchasing power,"Purchasing power is defined as the equivalised household income adjusted for price developments, which are based on the consumer price index (CPI). Purchasing power is used to determine income changes (in real terms), but may also be used to determine (developments in) differences in prosperity between individuals or households.
+
+The development is measured by the median change in purchasing power. The median is defined as the value separating the higher half from the lower half. In simple terms, it may be thought of as the 'middle' value of a data set.
+
+",,Double,%,1.0,Impossible
+Cbs.OData.Topic,3,3.0,,Topic,PersonsWithPurchasingPowerDecrease_2,Persons with purchasing power decrease,Percentage of the selected population with a decreasing purchasing power.,,Double,%,1.0,Impossible
+Cbs.OData.Topic,4,4.0,,Topic,PersonsWithPurchasingPowerIncrease_3,Persons with purchasing power increase,Percentage of the selected population with an increasing purchasing power.,,Double,%,1.0,Impossible
+Cbs.OData.TopicGroup,5,,,TopicGroup,,Purchasing power development(percentile),The individual purchasing power developments are ordered from low to high. Percentiles indicate the purchasing power development boundaries. A corresponding percentage of the population has a lower purchasing power development.,,,,,
+Cbs.OData.Topic,6,5.0,5.0,Topic,k_20thPercentile_4,20th percentile,20 percent of the population has a lower purchasing power development than this value or has an equal purchasing power development.,,Double,%,1.0,Impossible
+Cbs.OData.Topic,7,6.0,5.0,Topic,k_40thPercentile_5,40th percentile,40 percent of the population has a lower purchasing power development than this value or has an equal purchasing power development.,,Double,%,1.0,Impossible
+Cbs.OData.Topic,8,7.0,5.0,Topic,k_60thPercentile_6,60th percentile,60 percent of the population has a lower purchasing power development than this value or has an equal purchasing power development.,,Double,%,1.0,Impossible
+Cbs.OData.Topic,9,8.0,5.0,Topic,k_80thPercentile_7,80th percentile,80 percent of the population has a lower purchasing power development than this value or has an equal purchasing power development.,,Double,%,1.0,Impossible
