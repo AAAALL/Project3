@@ -1,0 +1,10 @@
+import pandas as pd
+
+df = pd.read_csv(r'C:\Users\alex0\OneDrive\Documenten\Python Exercises\TypedDataSet.csv', sep="\t")
+print(df.columns)
+
+couple_children = df[df["HouseholdCharacteristics"] == "1016090"]
+couple_children.head()
+
+couple_no_children = df[df["HouseholdCharacteristics"] == "1017780"]
+couple_no_children.head()
