@@ -1,10 +1,13 @@
 import pandas as pd
 
-df = pd.read_csv(r'C:\Users\alex0\OneDrive\Documenten\Python Exercises\TypedDataSet.csv', sep="\t")
+df = pd.read_csv("C:\\Users\\alex0\\OneDrive\\Documenten\\Python Exercises\\UntypedDataSet.csv", sep=",")
 print(df.columns)
+print(df["HouseholdCharacteristics"].unique())
 
-couple_children = df[df["HouseholdCharacteristics"] == "1016090"]
-couple_children.head()
+df_children = df[ ((df["HouseholdCharacteristics"] == '1016090') | df["HouseholdCharacteristics"] == '1017780')]
+df_children.head()
 
-couple_no_children = df[df["HouseholdCharacteristics"] == "1017780"]
-couple_no_children.head()
+if df_children.empty:
+    print("No rows match the filtering condition.")
+else:
+    df_children.groupby("HouseholdCharacteristics")["MedianDevelopmentPurchasingPower_1"].mean().plot(kind="bar")
