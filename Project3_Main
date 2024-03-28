@@ -4,7 +4,7 @@ df = pd.read_csv("C:\\Users\\alex0\\OneDrive\\Documenten\\Python Exercises\\Unty
 print(df.columns)
 print(df["HouseholdCharacteristics"].unique())
 
-df_children = df[ ((df["HouseholdCharacteristics"] == '1016090') | df["HouseholdCharacteristics"] == '1017780')]
+df_children = df[df["HouseholdCharacteristics"].isin(['1016090','1017780'])]
 df_children.head()
 
 if df_children.empty:
