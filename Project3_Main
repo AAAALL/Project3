@@ -11,3 +11,12 @@ if df_children.empty:
     print("No rows match the filtering condition.")
 else:
     df_children.groupby("HouseholdCharacteristics")["MedianDevelopmentPurchasingPower_1"].mean().plot(kind="bar")
+
+df_main_earner = df[df["HouseholdCharacteristics"].isin(['A025340','A025343','A025351','A025359'])]
+
+main_earner = df_main_earner['HouseholdCharacteristics']
+values = df_main_earner['MedianDevelopmentPurchasingPower_1']
+  
+plt.bar(main_earner, values)
+plt.xlabel('')
+plt.ylabel('Purchase power')  
