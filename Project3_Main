@@ -8,6 +8,7 @@ Before we can start any analysis, we will have to import the dataset. For this w
 After importing the dataset, we also added a header to give an impression of what the dataset looks like.
 
 import pandas as pd
+import matplotlib.pyplot as plt
 
 df = pd.read_csv("C:\\Users\\alex0\\OneDrive\\Documenten\\Python Exercises\\UntypedDataSet.csv", sep=",")
 df.head
