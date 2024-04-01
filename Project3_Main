@@ -41,10 +41,11 @@ main_earner = df_main_earner['HouseholdCharacteristics']
 values = df_main_earner['MedianDevelopmentPurchasingPower_1'] # Value of each median purchase power corresponding to their age category.
   
 plt.bar(main_earner, values)
-plt.xlabel('')
-plt.ylabel('Median Purchase power')  
+plt.xlabel('Age Categories')
+plt.ylabel('Median Purchase Power')  
 
 We use the plt. function to create a barplot and showcase each age category individually. \n
 Based on this data we can conclude that the first age group has the highest median purchasing power. \n
-There are various reasons that play a key role in this conclusion. The significance lies in the fact that each time we transition to an older age category \n
-we can find a decrease in purchasing power. 
+The significance lies in the fact that each time we transition to an older age category, \n
+we can find a decrease in purchasing power, which goes against the initial claim. In this case, the younger age category has a significant higher purchase power. \n
+There are various factors that play a key role in this conclusion. 
