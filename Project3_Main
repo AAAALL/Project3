@@ -1,16 +1,33 @@
+For this project we will be using the Purchasingpower HouseholdCharacteristics dataset from CBS. \n
+The dataset contains information about the purchasingpower of people whose household characteristics were the same as the year before. \n
+For example if a person was the primary earner in a household during 2022 and 2023, the purchasingpower of this person is measured in the dataset. \n
+The dataset consists of 10 columns: ID, HouseholdCharacteristics, Periods, MedianDevelopmentPurchasingPower, PersonsWithPurchasingPowerDecrease, PersonsWithPurchasingPowerIncrease, k_20thPercentile, k_40thPercentile, k_60thPercentile and k_80thPercentile. \n
+The information about the HouseholdCharacteristics column is saved in a separate file: HouseholdCharacteristics.csv. The data is collected from 2012 until 2022.\n
+
+Before we can start any analysis, we will have to import the dataset. For this we will use the pandas library.\n
+After importing the dataset, we also added a header to give an impression of what the dataset looks like.
+
 import pandas as pd
 
 df = pd.read_csv("C:\\Users\\alex0\\OneDrive\\Documenten\\Python Exercises\\UntypedDataSet.csv", sep=",")
-print(df.columns)
-print(df["HouseholdCharacteristics"].unique())
+df.head
 
-df_children = df[df["HouseholdCharacteristics"].isin(['1016090','1017780'])]
-df_children.head()
+For our first analysis we want to compare the development of the median purchasingpower for couples that have children with couples that don't have children. \n
+We thougth this would be an interesting comparison, because it is very expensive to raise children. Our expectation therefore is that couples that don't have children have developed a higher purchasingpower. \n
+The ID that belongs to the household characteristics of couples without children is 1016090. For couples with children this ID is 1017780.\n
+To compare the purchasingpower of these households, we will have to filter the dataset based on these IDs.
+
+
+df_children = df[df["HouseholdCharacteristics"].isin(['1016090','1017780'])] #Filter the dataset so it only contains the data of couples with and without children
+
+When the dataset is filtered, we can use the .plot function of the pandas library to create a barplot.\n
+To build a barplot we also have to calculate the mean development of the purchasingpower over the total of years.
+
 
 if df_children.empty:
-    print("No rows match the filtering condition.")
+    print("No rows match the filtering condition.") #If a problem occured during the filtering process, it will be shown here.
 else:
-    df_children.groupby("HouseholdCharacteristics")["MedianDevelopmentPurchasingPower_1"].mean().plot(kind="bar")
+    df_children.groupby("HouseholdCharacteristics")["MedianDevelopmentPurchasingPower_1"].mean().plot(kind="bar") #If no problem occured, the barplot will be constructed
 
 df_main_earner = df[df["HouseholdCharacteristics"].isin(['A025340','A025343','A025351','A025359'])]
 
