@@ -4,7 +4,7 @@ For example if a person was the primary earner in a household during 2022 and 20
 The dataset consists of 10 columns: ID, HouseholdCharacteristics, Periods, MedianDevelopmentPurchasingPower, PersonsWithPurchasingPowerDecrease, PersonsWithPurchasingPowerIncrease, k_20thPercentile, k_40thPercentile, k_60thPercentile and k_80thPercentile. \n
 The information about the HouseholdCharacteristics column is saved in a separate file: HouseholdCharacteristics.csv. The data is collected from 2012 until 2022.\n
 
-Before we can start any analysis, we will have to import the dataset. For this we will use the pandas library.\n
+Before we can start any analysis, we will have to import the dataset. For this we will use the pandas module.\n
 After importing the dataset, we also added a header to give an impression of what the dataset looks like.
 
 import pandas as pd
