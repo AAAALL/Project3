@@ -30,6 +30,11 @@ if df_children.empty:
 else:
     df_children.groupby("HouseholdCharacteristics")["MedianDevelopmentPurchasingPower_1"].mean().plot(kind="bar") #If no problem occured, the barplot will be constructed
 
+This analysis explores the median development purchasing power trends across different age categories, ranging from under 24 to 65 and older. \n 
+Our objective is to investigate whether individuals in older age brackets exhibit higher purchasing power. \n
+Each ID number varies in age category. \n 
+A025340 is up to 24 years old. A025343 is 25 to 44 years old. A025351 is 44 to 64 years old. A025359 is 65 years and older.
+
 df_main_earner = df[df["HouseholdCharacteristics"].isin(['A025340','A025343','A025351','A025359'])]
 
 main_earner = df_main_earner['HouseholdCharacteristics']
@@ -37,4 +42,9 @@ values = df_main_earner['MedianDevelopmentPurchasingPower_1']
   
 plt.bar(main_earner, values)
 plt.xlabel('')
-plt.ylabel('Purchase power')  
+plt.ylabel('Median Purchase power')  
+
+We use the plt. to create a barplot and showcase each age category individually. \n
+Based on this data we can conclude that the first age group has the highest median purchasing power. \n
+There are various reasons that play a key role in this conclusion. The significance lies in the fact that each time we transition to an older age category \n
+we can find a decrease in purchasing power. 
