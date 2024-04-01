@@ -14,7 +14,7 @@ df.head
 
 For our first analysis we want to compare the development of the median purchasingpower for couples that have children with couples that don't have children. \n
 We thougth this would be an interesting comparison, because it is very expensive to raise children. Our expectation therefore is that couples that don't have children have developed a higher purchasingpower. \n
-The ID that belongs to the household characteristics of couples without children is 1016090. For couples with children this ID is 1017780.\n
+The ID that belongs to the household characteristics of couples with children is 1016090. For couples without children this ID is 1017780.\n
 To compare the purchasingpower of these households, we will have to filter the dataset based on these IDs.
 
 
