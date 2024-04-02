@@ -75,6 +75,6 @@ plt.show()
 
 We use the plt. function to create a barplot and showcase each age category individually. The sns.boxplot function is used to create a visual for the potential outliers and IQR. \n
 Based on this data we can conclude that the first age group has the highest median purchasing power. \n
-The significance lies in the fact that each time we transition to an older age category, \n
-we can find a decrease in purchasing power, which goes against the initial claim. In this case, the youngest age category (A025340) has a significant higher purchase power.\n
-The median purchase power for the youngest age group lies closer to the 75th percentile, suggesting a higher (general) purchase power value within that age category. 
+The significance lies in the fact that each time we transition to an older age category, we can find a decrease in purchasing power, which goes against the initial claim. In this case, the youngest age category (A025340) has a significant higher purchase power.\n
+The median purchase power for the youngest age group lies closer to the 75th percentile, suggesting a higher (general) purchase power value within that age category. \n
+
