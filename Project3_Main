@@ -30,6 +30,26 @@ if df_children.empty:
 else:
     df_children.groupby("HouseholdCharacteristics")["MedianDevelopmentPurchasingPower_1"].mean().plot(kind="bar") #If no problem occured, the barplot will be constructed
 
+In contrast to our expectations, the plot shows us that the average development of the purchasingpower in the last 10 years has been stronger for couples with children. \n
+The average development of the purchasingpower for couples without children has even been slightly negative. \n
+To give more insights into this data, we decided to construct graphs of the development of the purchasingpower for both types of households. \n
+The graphs are shown below.
+
+df_children2 = df[df["HouseholdCharacteristics"].isin(['1016090'])]
+print(df_children2.head())
+
+df_children2.plot(kind='line',x = "Periods", y = "MedianDevelopmentPurchasingPower_1")
+
+df_children3 = df[df["HouseholdCharacteristics"].isin(['1017780'])]
+
+df_children3.plot(kind = 'line', x = "Periods", y = "MedianDevelopmentPurchasingPower_1", color = "orange")
+
+These graphs show that the development of purchasingpower for couples with children was mostly around 3-5% per year. \n
+The development of purchasingpower for couples without children however was around 1% each year. \n
+Lastly the graphs show us that for both types of households, the purchasingpower developed strongly negative around 2020. \n
+This is likely because of the Covid-19 virus.
+
+
 This analysis explores the median development purchasing power trends across different age categories, ranging from under 24 to 65 and older. \n 
 Our objective is to investigate whether individuals in older age brackets exhibit higher purchasing power. \n
 Each ID number varies in age category. \n 
