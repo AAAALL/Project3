@@ -9,6 +9,7 @@ After importing the dataset, we also added a header to give an impression of wha
 
 import pandas as pd
 import matplotlib.pyplot as plt
+import seaborn as sns
 
 df = pd.read_csv("C:\\Users\\alex0\\OneDrive\\Documenten\\Python Exercises\\UntypedDataSet.csv", sep=",")
 df.head
@@ -60,11 +61,13 @@ df_main_earner = df[df["HouseholdCharacteristics"].isin(['A025340','A025343','A0
 main_earner = df_main_earner['HouseholdCharacteristics']
 values = df_main_earner['MedianDevelopmentPurchasingPower_1'] # Value of each median purchase power corresponding to their age category.
   
-plt.bar(main_earner, values)
+plt.bar(main_earner, values) # Bar plot for initial visuals
+sns.boxplot(x='HouseholdCharacteristics', y='MedianDevelopmentPurchasingPower_1', data=df_main_earner) # Checking for outliers
 plt.xlabel('Age Categories')
 plt.ylabel('Median Purchase Power')  
 
 We use the plt. function to create a barplot and showcase each age category individually. \n
 Based on this data we can conclude that the first age group has the highest median purchasing power. \n
 The significance lies in the fact that each time we transition to an older age category, \n
-we can find a decrease in purchasing power, which goes against the initial claim. In this case, the youngest age category (A025340) has a significant higher purchase power.
+we can find a decrease in purchasing power, which goes against the initial claim. In this case, the youngest age category (A025340) has a significant higher purchase power.\n
+The median purchase power for the youngest age group lies closer to the 75th percentile, suggesting a higher (general) purchase power value within that age category. 
