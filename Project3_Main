@@ -61,10 +61,17 @@ df_main_earner = df[df["HouseholdCharacteristics"].isin(['A025340','A025343','A0
 main_earner = df_main_earner['HouseholdCharacteristics']
 values = df_main_earner['MedianDevelopmentPurchasingPower_1'] # Value of each median purchase power corresponding to their age category.
   
-plt.bar(main_earner, values) # Bar plot for initial visuals
-sns.boxplot(x='HouseholdCharacteristics', y='MedianDevelopmentPurchasingPower_1', data=df_main_earner) # Checking for outliers
+# Create the bar plot
+plt.bar(main_earner, values)
 plt.xlabel('Age Categories')
-plt.ylabel('Median Purchase Power')  
+plt.ylabel('Median Purchase Power')
+plt.show()
+
+# Boxplot to check for outliers and IQR range
+sns.boxplot(x='HouseholdCharacteristics', y='MedianDevelopmentPurchasingPower_1', data=df_main_earner)
+plt.xlabel('Age Categories')
+plt.ylabel('Median Purchase Power')
+plt.show()
 
 We use the plt. function to create a barplot and showcase each age category individually. \n
 Based on this data we can conclude that the first age group has the highest median purchasing power. \n
