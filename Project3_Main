@@ -67,5 +67,4 @@ plt.ylabel('Median Purchase Power')
 We use the plt. function to create a barplot and showcase each age category individually. \n
 Based on this data we can conclude that the first age group has the highest median purchasing power. \n
 The significance lies in the fact that each time we transition to an older age category, \n
-we can find a decrease in purchasing power, which goes against the initial claim. In this case, the younger age category has a significant higher purchase power. \n
-There are various factors that play a key role in this conclusion. 
+we can find a decrease in purchasing power, which goes against the initial claim. In this case, the youngest age category (A025340) has a significant higher purchase power.
